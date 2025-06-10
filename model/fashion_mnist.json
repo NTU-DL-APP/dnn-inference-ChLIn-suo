@@ -1,0 +1,184 @@
+[
+  {
+    "name": "flatten_3",
+    "type": "Flatten",
+    "config": {
+      "name": "flatten_3",
+      "trainable": true,
+      "dtype": {
+        "module": "keras",
+        "class_name": "DTypePolicy",
+        "config": {
+          "name": "float32"
+        },
+        "registered_name": null
+      },
+      "data_format": "channels_last"
+    },
+    "weights": []
+  },
+  {
+    "name": "dense_12",
+    "type": "Dense",
+    "config": {
+      "name": "dense_12",
+      "trainable": true,
+      "dtype": {
+        "module": "keras",
+        "class_name": "DTypePolicy",
+        "config": {
+          "name": "float32"
+        },
+        "registered_name": null
+      },
+      "units": 512,
+      "activation": "relu",
+      "use_bias": true,
+      "kernel_initializer": {
+        "module": "keras.initializers",
+        "class_name": "GlorotUniform",
+        "config": {
+          "seed": null
+        },
+        "registered_name": null
+      },
+      "bias_initializer": {
+        "module": "keras.initializers",
+        "class_name": "Zeros",
+        "config": {},
+        "registered_name": null
+      },
+      "kernel_regularizer": null,
+      "bias_regularizer": null,
+      "kernel_constraint": null,
+      "bias_constraint": null
+    },
+    "weights": [
+      "dense_12_0",
+      "dense_12_1"
+    ]
+  },
+  {
+    "name": "dense_13",
+    "type": "Dense",
+    "config": {
+      "name": "dense_13",
+      "trainable": true,
+      "dtype": {
+        "module": "keras",
+        "class_name": "DTypePolicy",
+        "config": {
+          "name": "float32"
+        },
+        "registered_name": null
+      },
+      "units": 256,
+      "activation": "relu",
+      "use_bias": true,
+      "kernel_initializer": {
+        "module": "keras.initializers",
+        "class_name": "GlorotUniform",
+        "config": {
+          "seed": null
+        },
+        "registered_name": null
+      },
+      "bias_initializer": {
+        "module": "keras.initializers",
+        "class_name": "Zeros",
+        "config": {},
+        "registered_name": null
+      },
+      "kernel_regularizer": null,
+      "bias_regularizer": null,
+      "kernel_constraint": null,
+      "bias_constraint": null
+    },
+    "weights": [
+      "dense_13_0",
+      "dense_13_1"
+    ]
+  },
+  {
+    "name": "dense_14",
+    "type": "Dense",
+    "config": {
+      "name": "dense_14",
+      "trainable": true,
+      "dtype": {
+        "module": "keras",
+        "class_name": "DTypePolicy",
+        "config": {
+          "name": "float32"
+        },
+        "registered_name": null
+      },
+      "units": 128,
+      "activation": "relu",
+      "use_bias": true,
+      "kernel_initializer": {
+        "module": "keras.initializers",
+        "class_name": "GlorotUniform",
+        "config": {
+          "seed": null
+        },
+        "registered_name": null
+      },
+      "bias_initializer": {
+        "module": "keras.initializers",
+        "class_name": "Zeros",
+        "config": {},
+        "registered_name": null
+      },
+      "kernel_regularizer": null,
+      "bias_regularizer": null,
+      "kernel_constraint": null,
+      "bias_constraint": null
+    },
+    "weights": [
+      "dense_14_0",
+      "dense_14_1"
+    ]
+  },
+  {
+    "name": "dense_15",
+    "type": "Dense",
+    "config": {
+      "name": "dense_15",
+      "trainable": true,
+      "dtype": {
+        "module": "keras",
+        "class_name": "DTypePolicy",
+        "config": {
+          "name": "float32"
+        },
+        "registered_name": null
+      },
+      "units": 10,
+      "activation": "softmax",
+      "use_bias": true,
+      "kernel_initializer": {
+        "module": "keras.initializers",
+        "class_name": "GlorotUniform",
+        "config": {
+          "seed": null
+        },
+        "registered_name": null
+      },
+      "bias_initializer": {
+        "module": "keras.initializers",
+        "class_name": "Zeros",
+        "config": {},
+        "registered_name": null
+      },
+      "kernel_regularizer": null,
+      "bias_regularizer": null,
+      "kernel_constraint": null,
+      "bias_constraint": null
+    },
+    "weights": [
+      "dense_15_0",
+      "dense_15_1"
+    ]
+  }
+]
