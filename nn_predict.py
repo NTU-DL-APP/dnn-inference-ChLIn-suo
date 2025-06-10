@@ -3,8 +3,9 @@ import json
 
 # === Activation functions ===
 def relu(x):
-    # TODO: Implement the Rectified Linear Unit
-    return np.maximum(0, x)
+    a = np.maximum(0,x)
+
+    return a
 
 def softmax(x):
     x_shifted = x - np.max(x, axis=-1, keepdims=True)
